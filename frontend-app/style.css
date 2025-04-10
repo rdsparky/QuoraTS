@@ -1,0 +1,46 @@
+.hero {
+background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+padding: 100px 0;
+text-align: center;
+}
+
+.features {
+padding: 50px 0;
+}
+
+.feature-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.feature-card {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+width: 300px;
+}
+
+.cta {
+background-color: #f7f7f7;
+padding: 50px 0;
+text-align: center;
+}
+
+.cta-buttons {
+margin-top: 20px;
+}
+
+.cta-button {
+background-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.cta-button:hover {
+background-color: #3e8e41;
+}

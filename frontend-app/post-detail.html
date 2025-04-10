@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question Detail</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow px-6 py-4 flex justify-between items-center">
+        <a href="/" class="text-xl font-bold text-red-600">Quora Transport Simple</a>
+        <div class="space-x-4 text-sm">
+            <a href="/my-posts.html" class="hover:underline">My Posts</a>
+            <a href="/my-answers.html" class="hover:underline">My Answers</a>
+            <a href="/logout.html" class="hover:underline">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-4 py-6">
+        <div id="question-detail" class="bg-white shadow-md rounded-lg p-6 mb-8"></div>
+        <h2 class="text-lg font-semibold mb-4">Answers</h2>
+        <div id="answer-button-container" class="my-6"></div>
+        <br>
+        <div id="answers-list" class="space-y-4"></div>
+    </main>
+
+    <script src="\static\js\post-detail.js"></script>
+</body>
+
+</html>

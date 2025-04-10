@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Post</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/" class="navbar-brand">Quora Transport Simple</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/my-posts.html" class="nav-link"><u>My Posts</u></a>
+            <a href="/my-answers.html" class="nav-link"><u>My Answers</u></a>
+            <a href="/logout.html" class="nav-link">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Add Post Form -->
+    <section class="add-post-form">
+        <h2>Create a New Post</h2>
+        <form id="post-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required />
+
+            <label for="body">Body:</label>
+            <textarea id="body" name="body" rows="6" required></textarea>
+
+            <label for="tags">Tags (comma-separated):</label>
+            <input type="text" id="tags" name="tags" placeholder="e.g., django, python" />
+
+            <button type="submit">Submit Post</button>
+        </form>
+        <div id="post-error-message"></div>
+    </section>
+
+    <script src="\static\js\add-post.js"></script>
+</body>
+
+</html>

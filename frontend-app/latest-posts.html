@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latest Posts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- NavBar -->
+    <nav class="navbar" style="color: lightseagreen;">
+        <div class="navbar-left">
+            <a href="/" class="navbar-brand"><u>Quora Transport Simple</u></a>
+        </div>
+        <div class="navbar-left">
+            <a href="/my-posts.html" class="nav-link"><u>My Posts</u></a>
+            <a href="/logout.html" class="nav-link"><u>Logout</u></a>
+        </div>
+    </nav>
+
+    <!-- Latest Posts Section -->
+    <section class="max-w-2xl mx-auto px-4 py-6">
+        <h1 class="text-2xl font-bold mb-4">Latest Posts</h1>
+        <div id="post-list" class="space-y-4">
+            <!-- Latest posts will be injected here dynamically -->
+        </div>
+    </section>
+
+    <script src="\static\js\latest-posts.js"></script>
+</body>
+
+</html>

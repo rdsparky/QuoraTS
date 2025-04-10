@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Answer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/" class="navbar-brand">Quora Transport Simple</a>
+        </div>
+        <div class="navbar-right">
+            <a href="/my-posts.html" class="nav-link">My Posts</a>
+            <a href="/logout.html" class="nav-link">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Answer Form -->
+    <section class="max-w-2xl mx-auto px-4 py-6">
+        <h2 class="text-2xl font-bold mb-4">Write Your Answer</h2>
+        <form id="answer-form" class="space-y-4">
+            <label for="answer" class="block text-sm font-medium">Answer:</label>
+            <textarea id="answer" name="answer" rows="6" class="w-full p-2 border rounded" required></textarea>
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                Submit Answer
+            </button>
+        </form>
+        <div id="answer-error-message" class="text-red-600 mt-2"></div>
+    </section>
+
+    <script src="\static\js\add-answer.js"></script>
+</body>
+
+</html>
